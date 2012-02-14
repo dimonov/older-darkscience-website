@@ -1,0 +1,35 @@
+README
+------
+
+Licensing
+~~~~~~~~~
+This file contains the source code for the darkscience.ws website. Since we
+have files which are statically linked to PunBB, which is GPL'd code, we
+hereby place the remaining website code under version 2 of the GNU General
+Public License.
+
+The source tree
+~~~~~~~~~~~~~~~
+This package is divided into the sections as follows:
+
+	./*.php - files which contain the "glue" code used to interface
+	with PunBB's database.
+
+	./global.inc.php - the file which contains a lot of configurable
+	options for the website.
+
+	./includes/ - the directory of files which are included by the
+	main website code.
+
+	./template/ - the template directory.
+
+	./ircd.motd - the old IRC message of the day.
+
+	./oper_rules.txt - IRC operator rules.
+
+Authors
+~~~~~~~
+PunBB was written by Rickard Andersson of punbb.org. The "glue" code, and
+the includes were written almost entirely by fiftysixer, with minor
+contributions from Goga[OEP], and a few more from dimonov (mostly security
+fixes).

@@ -1,0 +1,341 @@
+/* Begin global property reset */
+html, body, div, img, a, p, span, ul, li, h1, h2, h3, h4, h5, h6, hr, 
+object, table, thead, tbody, tfoot, tr, th, td, form, select, option, noscript {
+	width : auto;
+	height : auto;
+	margin : 0;
+	padding : 0;
+	border : 0;
+	outline : 0;
+	background-color : transparent;
+}
+/* End global property reset */
+
+/* Begin global tag properties */
+html, body {
+	width : 100%;
+}
+
+body {
+	margin : 75px 0 0 0;
+	padding : 0 0 30px 0;
+	text-align : center;
+	color : rgb(220,220,220);
+	background : rgb(0,0,0) url('./images/background_repeat.gif');
+	font : normal 12px Verdana, sans-serif, "Times New Roman";
+}
+
+img {
+	border : none;
+}
+
+a:focus {
+	outline : none;
+}
+
+a, a:visited {
+	color : rgb(83,200,221);
+	text-decoration : none;
+}
+
+a:hover {
+	text-decoration : underline;
+}
+
+h1 {
+	color : rgb(217,232,230);
+	font : bold 1.4em Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
+
+h2 {
+	margin : 0 0 6px 0;
+	padding : 0 0 4px 0;
+	border-bottom : 1px solid rgb(83,200,221);
+	font : italic 0.9em Verdana, sans-serif, "Times New Roman";
+}
+
+hr {
+	height : 4px;
+	color : rgb(150,150,150);
+}
+/* End global tag properties */
+
+/* Begin global classes */
+.bold {
+	font-weight : bold;
+}
+.running {
+	font-variant: small-caps;
+	text-transform: lowercase;
+}
+/* End global classes */
+
+/* Begin #container element properties */
+#container {
+	width : 75%;
+	min-width : 950px;
+	min-height : 100%;
+	margin : 0 auto;
+	padding : 20px;
+	text-align : left;
+	border : 1px solid rgb(83,200,221);
+	background : rgb(25,25,25) url(./images/gradient.png) top center no-repeat;
+}
+
+#container:after {
+	content : "";
+	display : block;
+	height : 0;
+	clear : both;
+}
+/* End #container element properties */
+
+/* Begin #header element properties */
+#container #header {
+	position : relative;
+	width : 100%;
+	height : 40px;
+}
+/* End #header element properties */
+
+/* Begin #logo element properties */
+#container #header #logo {
+	position : absolute;
+	width : 318px;
+	height : 72px;
+	top : -55px;
+	left : 0;
+	background : url(./images/logo2.png);
+}
+/* End #logo element properties */
+
+/* Begin #quote element properties */
+#container #header #quote {
+	position : absolute;
+	top : -10px;
+	right : 0px;
+	font : italic 1.0em Verdana, sans-serif, "Times New Roman";
+}
+/* Begin #quote element properties */
+
+/* Begin #nav element properties */
+#container #nav {
+	float : left;
+	width: 200px;
+}
+
+#container #nav a{
+	display : list-item;
+	padding : 4px 6px 4px 6px;
+	list-style : none;
+	font : normal 1.2em Geneva, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	margin: 0 0 5px 0;
+	background : rgb(40,40,40);
+	color : rgb(220,220,220);
+}
+
+#container #nav a:hover {
+	color : rgb(20,20,20);
+	background : rgb(83,200,221);
+	text-decoration : none;
+}
+/* End #nav element properties */
+
+/* Begin #main element properties */
+#container #main {
+	padding : 0 0 0 10px;
+	overflow : auto;
+}
+
+#container #main .sec {
+	padding : 0px 5px 5px 5px;
+	margin : 0 0 20px 0;
+}
+
+#container #main .sec .irc ul.padding li {
+	margin : 0 0 0 15px;
+}
+
+#container #main .sec ul {
+	margin : 0 0 0 15px;
+	list-style-type : square;
+}
+
+#container #main .sec ul.column {
+	float : left;
+	width : 150px;
+}
+
+#container #main .sec .irc{
+	margin : 0 0 0 20px;
+}
+
+#container #main .sec .pop {
+	color : rgb(83,200,221);
+}
+
+#container #main .sec .pop span{
+	color : rgb(220,220,220);
+}
+
+#container #main .sec:hover {
+	background : rgb(40,40,40);
+	color : rgb(230,230,230);
+}
+
+#container #main .sec table {
+	float : right;
+	text-align : right;
+	width : 60%;
+	padding : 5px;
+}
+
+#container #main .sec table:hover {
+	background : rgb(40,40,40);
+	color : rgb(230,230,230);
+}
+
+#container #main .sec .status td {
+	width : 17%;
+	padding : 4px;
+	border-right : 1px solid rgb(60,60,60);
+}
+
+#container #main .sec .status tr.bold {
+	text-align : center;
+	font-weight : bold;
+}
+
+#container #main .sec .status tr.alt td {
+	background-color: rgb(50,50,50);
+}
+
+#container #main .sec .status td.top {
+	border-bottom : 1px solid rgb(60,60,60);
+	border-right : 0;
+}
+
+#container #main .sec .status td.border {
+	border-bottom : 1px solid rgb(60,60,60);
+}
+
+#container #main .sec .status td.border2 {
+	border-left : 1px solid rgb(60,60,60);
+}
+
+#container #main .sec .status td.left {
+	width : 50%;
+	text-align : left;
+	border-left : 1px solid rgb(60,60,60);
+}
+
+#container #main .sec table.left {
+	float : left;
+	width : 38%;
+}
+
+body#status #container #main .sec:hover {
+	background : inherit;
+	color : inherit;
+}
+
+body#status #container #main h1 {
+	padding-left: 1em;
+}
+/* End #main element properties */
+
+/* Begin navigation properties */
+body#home #container #nav a.home,
+body#irc #container #nav a.irc,
+body#status #container #nav a.status,
+body#forums #container #nav a.forums,
+body#links #container #nav a.links,
+body#bbs #container #nav a.bbs,
+body#vpn #container #nav a.vpn,
+body#quotes #container #nav a.quotes,
+body#articles #container #nav a.articles {
+	background : rgb(40,40,40) url(./images/arrow.gif) no-repeat center right;
+}
+
+body#home #container #nav a.home:hover,
+body#irc #container #nav a.irc:hover,
+body#status #container #nav a.status:hover,
+body#forums #container #nav a.forums:hover,
+body#links #container #nav a.links:hover,
+body#bbs #container #nav a.bbs:hover,
+body#vpn #container #nav a.vpn:hover,
+body#quotes #container #nav a.quotes:hover,
+body#articles #container #nav a.articles:hover {
+	color : rgb(20,20,20);
+	background : rgb(83,200,221) url(./images/arrow.gif) no-repeat center right;
+}
+/* End navigation properties */
+
+/* Begin input properties */
+input[type=text], input[type=password], textarea, select {
+	padding: 3px 2px 3px 2px;
+	background: #151515;
+	margin: 2px;
+	border: 1px solid #555;
+	color: #AAA;
+}
+
+input[type=text]:focus, input[type=password]:focus, 
+textarea:focus, select:focus {
+	border: 1px solid rgb(83,200,221);
+	color: white;
+}
+
+input[type=button], input[type=submit] {
+	background: #222 url(./images/alert-overlay.png) repeat-x; 
+	display: inline-block; 
+	padding: 5px 10px 6px; 
+	color: #fff; 
+	text-decoration: none;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border:0;
+}
+
+input[type=button]:hover, input[type=submit]:hover {
+	background-color: #111;
+	color:  rgb(83,200,221);
+}
+
+input[type=button]:focus, input[type=submit]:focus {
+        background-color: #030303;
+        outline: none;
+}
+/* End input properties */
+
+
+div.quote_container {
+	border: 1px solid #666;
+	margin-bottom: 20px;
+}
+
+div.quote_container div.quote_header {
+	background: #282828;
+	font-weight: bold;
+	padding: 5px;
+	text-align: center;
+}
+
+div.quote_container div.quote_text {
+	padding: 5px;
+}
+
+div.quote_container div.quote_notes {
+	background: #202020;
+	font-size: 11px;
+	font-style: italic;
+	padding: 3px;
+}

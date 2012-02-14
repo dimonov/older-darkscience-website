@@ -1,0 +1,60 @@
+This is a working version of the darkscience IRC network Oper Policy. 
+Everything is subject to change at anytime without notice.
+
+
+It is expected that all operators behave in a professional manner while connected to the darkscience IRC Network.
+
+No form of abuse will be tolerated. 
+
+This translates to absolutely NOT allowing:
+
+* Oper overrides unless services are missing, or a similar circumstance presents itself with no other avenue of action. If you       
+  are unsure, simply refer to an available oper.
+
+* No setting yourself as +o in a channel, joining +s channels without being invited, evading bans, or setting/modifying a channel's 
+  modes/settings without appropriate permissions in the channel. This is expressly prohibited across the board on all channels with particular 
+  emphasis on shared channels. 
+
+* Absolutely no needless (a)kills, bans, glines, zlines, or flexing of oper power. 
+
+* Use of getpass is forbidden.
+
+We rely heavily on common courtesy between operators spread across many networks and/or communities. We are simply unable to express the gravity of these 
+rules. Fingers will be lost if they are not followed. 
+
+When at all possible, please use channel services to set chanmodes.
+
+Channels on our network are designed to be manageable by users, even in the event of a flood. With the proper use of unreal's +f mode, a channel op can handle a 
+flood on his own.
+
+If a user joins the network with a ghosted nick, the proper procedure is to instruct the user how to use nickserv to recover their nickname. Opers should not 
+accept user requests to kill ghosts or kill their own ghosts when services can be used alternatively.
+
+The rule of thumb with being an IRC operator is knowing how not to use your power. A good operator will almost never need to use their power and always stay 
+informed.
+
+Removal of a user from the network is to be used as a last resort.
+
+You may not be annoying. Be professional. Do not be a wanker, please. If you want to be respected, then speak in a respectable manner. 
+Grammar, punctuation, and common courtesy are memorable and will carry you far.
+
+No fighting in public channels. Fighting in public is both annoying and unprofessional. All we have on IRC are words. You will be expected to conduct yourself in 
+a polite manner at all times.
+
+No spam will be tolerated. If you are spamming our IRC network on another network in any shape, way, or form, then you will be subject to punishment. All the 
+reputation darkscience has is completely based on word of mouth. Darkscience doesn't need to spam. Selectively inviting someone is not considered spam. By all 
+means, tell people about darkscience and invite them. But please, be selective :)
+
+Opers are expected to help users and respond to requests for help politely and adequately. 
+
+Opers will not become involved with internal channel related affairs, politics, etc. Any channel disputes and incidents should be resolved between the channels 
+with minimal participation of any network staff with the only exception being in a limited mediatory role.  
+
+Be discrete with network affairs. Please idle #opers regularly and share and/or report issues to staff so we all stay informed.
+
+Opers may not distribute nor disclose user information in any form, including but not limited to IP addresses, passwords, etc. 
+
+In summation, the general attitude of being an oper here at the darkscience network is that you understand "power is when you have every justification to kill and 
+you don't".
+
+
